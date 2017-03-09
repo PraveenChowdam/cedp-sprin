@@ -11,7 +11,7 @@
 <h1>Home page</h1>
 <p>
 ${message}<br/>
-<a href="${pageContext.request.contextPath}/team/add.html">AddNew team member CEDP</a><br/>
+<a href="${pageContext.request.contextPath}/team/add.html">Add New Team member CEDP</a><br/>
 <a href="${pageContext.request.contextPath}/team/list.html">Team list CEDP</a><br/>
 </p>
 </body>
