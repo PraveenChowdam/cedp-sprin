@@ -5,4 +5,10 @@ applications:
   domain: mybluemix.net
   name: cedp-sprin
   host: cedp-sprin
+<<<<<<< HEAD
   disk_quota: 1024M
+=======
+  disk_quota: 1024M
+  buildpack: java_buildpack
+  
+>>>>>>> 833fa497234e58d3b9178d5db4fe73fd09f51ade
