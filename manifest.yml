@@ -1,8 +1,8 @@
 applications:
-- path: target/spring-cedp-ver.war
-  memory: 512M
-  instances: 1
-  domain: ng.bluemix.net
-  name: cedp-sprin
-  host: cedp-sprin
-  disk_quota: 1024M
+- path:target/spring-cedp-ver.war
+  memory:512M
+  instances:1
+  domain:bluemix.net
+  name:cedp-sprin
+  host:cedp-sprin
+  disk_quota:1024M
