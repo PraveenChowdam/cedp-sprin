@@ -6,3 +6,5 @@ applications:
   name: cedp-sprin
   host: cedp-sprin
   disk_quota: 1024M
+services: 
+   - cedp-mysql-node-service
