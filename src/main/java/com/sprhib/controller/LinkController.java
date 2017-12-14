@@ -9,7 +9,7 @@ public class LinkController {
 	
 	@RequestMapping(value="/")
 	public ModelAndView mainPage() {
-		return new ModelAndView("home");
+		return new ModelAndView("index");
 	}
 	
 	@RequestMapping(value="/index")
