@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false"%>
 <html>
 <head>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
 <title>Special School</title>
 <meta charset="UTF-8">
 <link href="${pageContext.request.contextPath}/resources/css/style.css"
@@ -14,15 +13,16 @@
 <div id="header">
   <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li class="current"><a href="index.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact us</a></li>
+      <li class="current"><a href="${pageContext.request.contextPath}">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+      <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>
   </div>
 </div>
-<div id="content" style="background: url(../images/bg-homepage.jpg) no-repeat top center;">
+<div id="content">
   <div>
     <div>
       <h1>The Special School</h1>
@@ -35,7 +35,7 @@
 </div>
 <div id="footer">
   <div>
-    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <div> <span>Follow us</span> <a href="http://facebook.com/SIP.PILER" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>

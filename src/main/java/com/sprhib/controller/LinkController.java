@@ -8,12 +8,32 @@ import org.springframework.web.servlet.ModelAndView;
 public class LinkController {
 	
 	@RequestMapping(value="/")
-	public ModelAndView mainPage() {
+	public ModelAndView indexPage() {
 		return new ModelAndView("index");
 	}
 	
-	/*@RequestMapping(value="/index")
-	public ModelAndView indexPage() {
-		return new ModelAndView("home");
-	}*/
+	@RequestMapping(value="/about")
+	public ModelAndView AboutPage() {
+		return new ModelAndView("about");
+	}
+	
+	@RequestMapping(value="/services")
+	public ModelAndView servicesPage() {
+		return new ModelAndView("services");
+	}
+	
+	@RequestMapping(value="/blog")
+	public ModelAndView blogPage() {
+		return new ModelAndView("blog");
+	}
+	
+	@RequestMapping(value="/gallery")
+	public ModelAndView galleryPage() {
+		return new ModelAndView("gallery");
+	}
+	
+	@RequestMapping(value="/contact")
+	public ModelAndView contactUsPage() {
+		return new ModelAndView("contact");
+	}
 }

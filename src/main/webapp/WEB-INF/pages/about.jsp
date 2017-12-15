@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
 <title>Special School | About</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="${pageContext.request.contextPath}/resources/css/style.css"
+    rel="stylesheet">
+
 <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
 </head>
 <body>
 <div id="header">
-  <div> <a href="index.html"><img src="images/logo.gif" alt=""></a>
+  <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li class="current"><a href="about.html">About us</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact us</a></li>
+      <li class="current"><a href="${pageContext.request.contextPath}/about">About us</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+      <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>
   </div>
 </div>
 <div class="content">
   <div>
-    <div> <img src="images/professionals.jpg" alt=""> </div>
+    <div> <img src="${pageContext.request.contextPath}/resources/images/professionals.jpg" alt=""> </div>
     <div>
       <div id="sidebar">
         <h3>Our Education</h3>
@@ -55,10 +60,10 @@
   <div>
     <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
     <ul>
-      <li> <a href="#"><img src="images/playing-in-grass.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
         <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="images/baby-smiling.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
         <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
         <a href="#" class="readmore">Read more</a> </li>
     </ul>

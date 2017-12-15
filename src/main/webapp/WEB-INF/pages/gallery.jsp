@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Special School | Contact</title>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<title>Special School | Gallery</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="${pageContext.request.contextPath}/resources/css/style.css"
+    rel="stylesheet">
 <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
 </head>
 <body>
+
 <div id="header">
-  <div> <a href="index.html"><img src="images/logo.gif" alt=""></a>
+  <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li class="current"><a href="contact.html">Contact us</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li class="current"><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+      <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>
   </div>
 </div>
 <div class="content">
   <div>
-    <div> <img src="images/calling.jpg" alt=""> </div>
+    <div> <img src="${pageContext.request.contextPath}/resources/images/calling.jpg" alt=""> </div>
     <div>
       <div id="sidebar">
         <h3>Our Education</h3>
@@ -52,20 +57,6 @@
       </div>
     </div>
   </div>
-</div>
-<div id="footer">
-  <div>
-    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
-    <ul>
-      <li> <a href="#"><img src="images/playing-in-grass.gif" alt=""></a>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-        <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="images/baby-smiling.gif" alt=""></a>
-        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
-        <a href="#" class="readmore">Read more</a> </li>
-    </ul>
-  </div>
-  <p class="footnote">Copyright &copy; 2012 <a href="#">School Name</a> All rights reserved | Website Template By <a target="_blank" href="http://www.freewebsitetemplates.com/">freewebsitetemplates.com</a></p>
 </div>
 </body>
 </html>

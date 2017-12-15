@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
 <title>Special School | Blog</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="${pageContext.request.contextPath}/resources/css/style.css"
+    rel="stylesheet">
 <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
 </head>
 <body>
 <div id="header">
-  <div> <a href="index.html"><img src="images/logo.gif" alt=""></a>
+  <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About us</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li class="current"><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact us</a></li>
+	  <li><a href="/">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li class="current"><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
+      <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>
   </div>
 </div>
@@ -43,21 +47,21 @@
     <div class="article">
       <ul>
         <li class="first">
-          <div class="section"> <a href="#"><img src="images/man.jpg" alt=""></a> <span><a href="#">Jean Michelle</a></span> <span><a href="#">Dec 3</a></span> </div>
+          <div class="section"> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/man.jpg" alt=""></a> <span><a href="#">Jean Michelle</a></span> <span><a href="#">Dec 3</a></span> </div>
           <div>
             <h1><a href="#">Family Improvement 101</a></h1>
             <p>Lorem ipsumdolor sit amet, consec tetuer adipis cing elitsed diam non ummy nibh euismod tincidunt ut laoreet dolore magna. Aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullacorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus.</p>
           </div>
         </li>
         <li>
-          <div class="section"> <a href="#"><img src="images/woman.jpg" alt=""></a> <span><a href="#">Ryan Rey</a></span> <span><a href="#">Nov 29</a></span> </div>
+          <div class="section"> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/woman.jpg" alt=""></a> <span><a href="#">Ryan Rey</a></span> <span><a href="#">Nov 29</a></span> </div>
           <div>
             <h1><a href="#">Comfort and Care</a></h1>
             <p>Lorem ipsumdolor sit amet, consect tetuer adipis cing elitsed diam non ummy nibh euismod tincidunt ut laoreet dolore magna. Aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
           </div>
         </li>
         <li>
-          <div class="section"> <a href="#"><img src="images/nurse.jpg" alt=""></a> <span><a href="#">Mindy Hill</a></span> <span><a href="#">Nov 11</a></span> </div>
+          <div class="section"> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/nurse.jpg" alt=""></a> <span><a href="#">Mindy Hill</a></span> <span><a href="#">Nov 11</a></span> </div>
           <div>
             <h1><a href="#">Fighting Bad Behavior</a></h1>
             <p>Lorem ipsumdolor sit amet, consec tetuer adipis cing elitsed diam non ummy nibh euismod tincidunt ut laoreet dolore magna. Aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
@@ -77,12 +81,12 @@
 </div>
 <div id="footer">
   <div>
-    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="http://facebook.com/SIP.PILER" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
     <ul>
-      <li> <a href="#"><img src="images/playing-in-grass.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
         <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="images/baby-smiling.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
         <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
         <a href="#" class="readmore">Read more</a> </li>
     </ul>
