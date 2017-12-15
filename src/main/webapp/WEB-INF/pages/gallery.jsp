@@ -42,11 +42,10 @@
         </ul>
       </div>
       <div id="contact">
-        <h4 class="first">Customer Service</h4>
-        <p>E-mail: <a href="#">name@domainname.com</a></p>
+        <p>E-mail: <a href="#">chowdam.praveenkumar@gmail.com</a></p>
         <p>Call or e-mail us for help with any aspect of your purchase, online or offline.</p>
-        <b>Call toll-free: 877 000 0000<br>
-        Call toll-free: 866 000 0000<br>
+        <b>Call :+91-81055 99330<br>
+        Call : +91-9618669179<br>
         Toll-free fax: 877 000 0000</b>
         <h4>Mailing Addresses</h4>
         <p>Petshop</p>

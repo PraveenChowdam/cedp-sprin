@@ -14,7 +14,7 @@
 <div id="header">
   <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}/">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
       <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
       <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
@@ -41,31 +41,27 @@
           </li>
         </ul>
       </div>
-      <div id="contact">
-        <h4 class="first">Customer Service</h4>
-        <p>E-mail: <a href="#">name@domainname.com</a></p>
-        <p>Call or e-mail us for help with any aspect of your purchase, online or offline.</p>
-        <b>Call toll-free: 877 000 0000<br>
-        Call toll-free: 866 000 0000<br>
-        Toll-free fax: 877 000 0000</b>
-        <h4>Mailing Addresses</h4>
-        <p>Petshop</p>
-        <p>250 Lorem ipsum Street</p>
-        <p>4th Floor</p>
-        <p>Jaofanr, Caknan 109935</p>
-        <p>Kiangab</p>
+      <div align="center" style="border-width: 20px;border-color: #00FF0F" >
+      	<div><img align="center" alt="" src="${pageContext.request.contextPath}/resources/images/school.jpg"></div>
+        <h3 class="first">Abacus Institute</h4>
+        <p>Padmavati Nagar.1st Cross .Adj: Mathaji Fancy Store.</p>
+        <p align="center"> Piler - 517214 </p>
+        <p align="center"> Chittoor (Dist) </p>
+        <b>Call : +91-8105599339<br>
+           Call : +91-9618669179<br>
+        
       </div>
     </div>
   </div>
 </div>
 <div id="footer">
   <div>
-    <div> <span>Follow us</span> <a href="#" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <div> <span>Follow us</span> <a href="http://facebook.com/SIP.PILER" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
         <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resourcesimages/baby-smiling.gif" alt=""></a>
         <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
         <a href="#" class="readmore">Read more</a> </li>
     </ul>
