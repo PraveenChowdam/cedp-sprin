@@ -22,6 +22,7 @@ public class TeamController {
 	
 	@RequestMapping(value="/add", method=RequestMethod.GET)
 	public ModelAndView addTeamPage() {
+		System.out.println(" Inside Team Add ****************");
 		ModelAndView modelAndView = new ModelAndView("add-team-form");
 		modelAndView.addObject("team", new Team());
 		return modelAndView;

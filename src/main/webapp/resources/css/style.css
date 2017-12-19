@@ -435,6 +435,10 @@ div.content p a {
 	background: url(../images/icon.gif) no-repeat 10px -123px;
 	line-height: 30px;
 }
+#footer div div a.youtube {
+	background: url(../images/icon.gif) no-repeat 10px -123px;
+	line-height: 30px;
+}
 #footer div div a.flicker {
 	background: url(../images/icon.gif) no-repeat 10px -50px;
 	line-height: 24px;

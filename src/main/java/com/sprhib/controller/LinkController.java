@@ -36,4 +36,9 @@ public class LinkController {
 	public ModelAndView contactUsPage() {
 		return new ModelAndView("contact");
 	}
+	
+	@RequestMapping(value="/testpage")
+	public ModelAndView testPage() {
+		return new ModelAndView("home");
+	}
 }

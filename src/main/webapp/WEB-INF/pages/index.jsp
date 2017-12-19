@@ -19,6 +19,7 @@
       <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
+      <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li>
     </ul>
   </div>
 </div>
@@ -35,7 +36,8 @@
 </div>
 <div id="footer">
   <div>
-    <div> <span>Follow us</span> <a href="http://facebook.com/SIP.PILER" class="facebook">Facebook</a> <a href="#" class="subscribe">Subscribe</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="flicker">Flickr</a> </div>
+    <div> <span>Follow us</span> <a href="http://facebook.com/SIP.PILER" class="facebook">Facebook</a>
+     <a href="#" class="subscribe">Subscribe</a> <a href="https://www.youtube.com/channel/UCWgHaVEpi0R2tMKWhYm086g?view_as=subscriber" class="youtube">Youtube</a> <a href="#" class="flicker">Flickr</a> </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
