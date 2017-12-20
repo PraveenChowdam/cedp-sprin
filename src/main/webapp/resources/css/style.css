@@ -424,25 +424,29 @@ div.content p a {
 	color: #82ae3f;
 }
 #footer div div a.facebook {
-	background: url(../images/icon.gif) no-repeat 10px 0;
-	line-height: 41px;
+	background: url(../images/fb.jpg) no-repeat 10px 0;
+	line-height: 90px;
 }
+/*
 #footer div div a.subscribe {
-	background: url(../images/icon.gif) no-repeat 10px -85px;
+	background: url(../images/fb.jpg) no-repeat 10px -85px;
 	line-height: 27px;
 }
+
 #footer div div a.twitter {
-	background: url(../images/icon.gif) no-repeat 10px -123px;
+	background: url(../images/fb.jpg) no-repeat 10px -123px;
 	line-height: 30px;
 }
+*/
 #footer div div a.youtube {
-	background: url(../images/icon.gif) no-repeat 10px -123px;
-	line-height: 30px;
+	background: url(../images/fb.jpg) no-repeat 10px -300px;
+	line-height: 10px;
 }
+/*
 #footer div div a.flicker {
-	background: url(../images/icon.gif) no-repeat 10px -50px;
+	background: url(../images/fb.jpg) no-repeat 10px -50px;
 	line-height: 24px;
-}
+}*/
 #footer div ul {
 	float: right;
 	list-style: none;

@@ -16,7 +16,7 @@
       <li class="current"><a href="${pageContext.request.contextPath}">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
       <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
-      <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
       <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li>
@@ -36,8 +36,10 @@
 </div>
 <div id="footer">
   <div>
-    <div> <span>Follow us</span> <a href="http://facebook.com/SIP.PILER" class="facebook">Facebook</a>
-     <a href="#" class="subscribe">Subscribe</a> <a href="https://www.youtube.com/channel/UCWgHaVEpi0R2tMKWhYm086g?view_as=subscriber" class="youtube">Youtube</a> <a href="#" class="flicker">Flickr</a> </div>
+    <div border="30px" color="black"> <span>Follow us</span> 
+     <a href="http://facebook.com/SIP.PILER"><img   src="${pageContext.request.contextPath}/resources/images/facebook.jpg" alt="Facebook">Facebook</a>
+     <a href="https://www.youtube.com/channel/UCWgHaVEpi0R2tMKWhYm086g?view_as=subscriber" ><img   src="${pageContext.request.contextPath}/resources/images/youtube.png" alt="Youtube">Youtube</a>
+     </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>

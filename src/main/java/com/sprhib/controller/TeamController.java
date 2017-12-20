@@ -1,46 +1,46 @@
 package com.sprhib.controller;
 
-import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.sprhib.model.Team;
+import com.sprhib.model.Employee;
+import com.sprhib.model.Student;
 import com.sprhib.service.TeamService;
 
 @Controller
-@RequestMapping(value="/team")
 public class TeamController {
 	
 	@Autowired
 	private TeamService teamService;
 	
-	@RequestMapping(value="/add", method=RequestMethod.GET)
-	public ModelAndView addTeamPage() {
-		System.out.println(" Inside Team Add ****************");
-		ModelAndView modelAndView = new ModelAndView("add-team-form");
-		modelAndView.addObject("team", new Team());
-		return modelAndView;
+	@RequestMapping(value = "/empform", method = RequestMethod.GET)
+	public ModelAndView employee() {
+		return new ModelAndView("employeeForm", "command", new Employee());
 	}
 	
-	@RequestMapping(value="/add", method=RequestMethod.POST)
-	public ModelAndView addingTeam(@ModelAttribute Team team) {
-		
-		ModelAndView modelAndView = new ModelAndView("home");
-		teamService.addTeam(team);
-		
-		String message = "Team was successfully added.";
-		modelAndView.addObject("message", message);
-		
-		return modelAndView;
-	}
+	 
+	 @RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
+		public String addEmployee(@ModelAttribute("SpringWeb")Employee employee, ModelMap model) {
+		 System.out.println(" Inside add Employee ************");
+		      model.addAttribute("name", employee.getName());
+		      model.addAttribute("age", employee.getAge());
+		      model.addAttribute("empId", employee.getEmpId());
+		      model.addAttribute("salary", employee.getSalary());
+		      teamService.addEmployee(employee);
+		      return "employeeDetail";
+	 }
+	 
+}
 	
-	@RequestMapping(value="/list")
+	/*@RequestMapping(value="/list")
 	public ModelAndView listOfTeams() {
 		ModelAndView modelAndView = new ModelAndView("list-of-teams");
 		
@@ -79,5 +79,4 @@ public class TeamController {
 		modelAndView.addObject("message", message);
 		return modelAndView;
 	}
-
-}
+*/

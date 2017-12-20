@@ -1,39 +1,32 @@
 package com.sprhib.service;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.sprhib.dao.TeamDAO;
-import com.sprhib.model.Team;
+import com.sprhib.model.Employee;
 
 @Service
-@Transactional
 public class TeamServiceImpl implements TeamService {
 	
 	@Autowired
 	private TeamDAO teamDAO;
 
-	public void addTeam(Team team) {
-		teamDAO.addTeam(team);		
+	
+	@Override
+	public void addEmployee(Employee emp) {
+		System.out.println(" Inside TeamServiceImpl ");
+		teamDAO.addEmployee(emp);	
 	}
+	
+	
 
-	public void updateTeam(Team team) {
-		teamDAO.updateTeam(team);
-	}
+	/*@Override
+	public void updateStudent(Student student) {
+		teamDAO.updateStudent(student);	
+		
+	}*/
 
-	public Team getTeam(int id) {
-		return teamDAO.getTeam(id);
-	}
-
-	public void deleteTeam(int id) {
-		teamDAO.deleteTeam(id);
-	}
-
-	public List<Team> getTeams() {
-		return teamDAO.getTeams();
-	}
-
+	 
 }
