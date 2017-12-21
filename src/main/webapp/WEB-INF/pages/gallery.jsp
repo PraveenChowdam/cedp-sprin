@@ -14,7 +14,7 @@
 <div id="header">
   <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
       <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
       <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
