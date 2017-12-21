@@ -13,7 +13,7 @@
 <div id="header">
   <div> <a href="${pageContext.request.contextPath}/index"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
-      <li><a href="/">Home</a></li>
+      <li><a href="${pageContext.request.contextPath}">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">Courses</a></li>
       <li class="current"><a href="${pageContext.request.contextPath}/services">News&Press</a></li>
       <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
@@ -24,51 +24,22 @@
 </div>
 <div class="content">
   <div>
-    <div> <img src="${pageContext.request.contextPath}/resources/images/baby.jpg" alt=""> </div>
-    <div id="services">
-      <div id="sidebar">
-        <h3>Our Education</h3>
-        <ul>
-          <li id="vision"> <span>Our Vision</span>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
-          </li>
-          <li id="mission"> <span>Our Mission</span>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
-          </li>
-          <li id="wecare"> <span>We care</span>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim venia.</p>
-          </li>
-        </ul>
+    <div> <img src="${pageContext.request.contextPath}/resources/images/famous.png" alt=""> </div>
+    <br></br>
+    <div >
+      <div style="#FF9900">
+      	<h3 style="#FF9900">SIP Abacus Regional Competitions 2017 Press Note</h3>
+         
       </div>
-      <div id="aside"> <span class="first">Used Methods</span>
-        <ul class="section">
-          <li>Inclusion</li>
-          <li>Mainstreaming</li>
-          <li>Exclusion</li>
-          <li>Segreation</li>
-        </ul>
-        <span>Common Special needs include:</span> <b>~ &nbsp;Challeger with learning</b> <b>~ &nbsp;Emotional and Behavioral Disorders</b> <b>~ &nbsp;Physical Disabilities</b> <b>~ &nbsp;Developmental Disorders</b> <span>Our Services</span>
-        <div>
-          <ol>
-            <li>Speech and Language Pathology</li>
-            <li>Audiology</li>
-            <li>Psychological Services</li>
-            <li>Physical Therapy</li>
-            <li>Occupation Therapy</li>
-            <li>Counseling Services</li>
-            <li>Rehabilitation Counseling</li>
-            <li>Orientation and Mobility Services</li>
-          </ol>
-          <ol>
-            <li>School Social Work</li>
-            <li>Assistive Technology Services</li>
-            <li>Corrective Support Services</li>
-            <li>Developmental Recreation Activities</li>
-            <li>School Health Services</li>
-            <li>Parent Counseling and Training</li>
-            <li>Medical Services</li>
-          </ol>
-        </div>
+      <div>
+      <p>SIP Abacus Regional Competitions held on Feb 2017 in Tirupati.Nearly 300 children across Rayalaseema region attended to show-case their talent.
+         Different level students attended the exam .Conducted cultural dance and followed by the prize distribution to the winners.
+      </div>
+      <div> 
+        <p><img src="${pageContext.request.contextPath}/resources/images/gallery/eenadu.jpg" alt=""></p>
+         <p><img src="${pageContext.request.contextPath}/resources/images/gallery/jyothi.jpg" alt=""></p>
+       
+          
       </div>
     </div>
   </div>

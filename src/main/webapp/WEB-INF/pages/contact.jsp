@@ -63,7 +63,7 @@
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
         <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="${pageContext.request.contextPath}/resourcesimages/baby-smiling.gif" alt=""></a>
+      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
         <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
         <a href="#" class="readmore">Read more</a> </li>
     </ul>
