@@ -58,7 +58,7 @@ img {
 }
 #content div {
 	background: url(../images/bg-homepage.jpg) no-repeat top center;
-	min-height: 1170px;
+	min-height: 960px;
 	margin: 0 auto;
 	overflow: hidden;
 	width: 960px;

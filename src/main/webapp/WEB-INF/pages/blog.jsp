@@ -14,8 +14,8 @@
   <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
 	  <li><a href="/">Home</a></li>
-      <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
-      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li><a href="${pageContext.request.contextPath}/about">Courses</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">News&Press</a></li>
       <li  class="current"><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
@@ -46,9 +46,7 @@
     
      <ul>
      <li>
-     
-               <div> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/feedback/feedback-chand.jpg" alt=""></a> </div>
-       
+       <div> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/feedback/feedback-chand.jpg" alt=""></a> </div>
      </li>
      </ul>
       <div id="paging">

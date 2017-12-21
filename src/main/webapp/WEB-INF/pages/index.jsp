@@ -5,21 +5,20 @@
 <%@ page session="false"%>
 <title>Special School</title>
 <meta charset="UTF-8">
-<link href="${pageContext.request.contextPath}/resources/css/style.css"
-    rel="stylesheet">
+<link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
 <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
 </head>
 <body>
 <div id="header">
-  <div> <a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
+  <div> <a href="${pageContext.request.contextPath}"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt=""></a>
     <ul>
       <li class="current"><a href="${pageContext.request.contextPath}">Home</a></li>
-      <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
-      <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
+      <li><a href="${pageContext.request.contextPath}/about">Courses</a></li>
+      <li><a href="${pageContext.request.contextPath}/services">News&Press</a></li>
       <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
-      <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li>
+      <!-- <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li>-->
     </ul>
   </div>
 </div>
@@ -27,10 +26,11 @@
   <div>
     <div>
       <h1>The Special School</h1>
-      <p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the Forum.</p>
-      <h2>They are Special</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequeat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-      <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis quifacit eorum claritatem. Investigationes demonstraverunt lectores legere me luis quod ii legunt saepius.</p>
+      <p>SIP Abacus Institute is a profesionally managed institute incorportated on 20 Jun 2016.we are mainly into abacus . The courses are designed for the students in the age group of 5 - 12 years.
+         These courses promote Whole Brain Development by stimulating both sides of brain along with enhancement in skills, which leads to greater confidence in students to succeed in School Curriculum & 
+         also in all walks of life. The institute has been conducting Abacus Competitions in regional wise ,national wise and International.
+      </p>
+     
     </div>
   </div>
 </div>
