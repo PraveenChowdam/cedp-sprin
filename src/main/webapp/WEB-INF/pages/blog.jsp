@@ -3,7 +3,7 @@
 <head>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
-<title>Special School | Blog</title>
+<title>Special School | Testimonials</title>
 <meta charset="UTF-8">
 <link href="${pageContext.request.contextPath}/resources/css/style.css"
     rel="stylesheet">
@@ -16,7 +16,7 @@
 	  <li><a href="/">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
       <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
-      <li class="current"><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+      <li  class="current"><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>

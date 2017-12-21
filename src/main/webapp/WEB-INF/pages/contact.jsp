@@ -17,7 +17,7 @@
       <li><a href="${pageContext.request.contextPath}/">Home</a></li>
       <li><a href="${pageContext.request.contextPath}/about">About us</a></li>
       <li><a href="${pageContext.request.contextPath}/services">Services</a></li>
-      <li><a href="${pageContext.request.contextPath}/blog">Blog</a></li>
+       <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li class="current"><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
     </ul>
@@ -41,17 +41,19 @@
           </li>
         </ul>
       </div>
+      
       <div align="center" style="border-width: 20px;border-color: #00FF0F" >
       	<div><img align="center" alt="" src="${pageContext.request.contextPath}/resources/images/school.jpg"></div>
         <h3 class="first">Abacus Institute</h4>
         <p>Padmavati Nagar.1st Cross .Adj: Mathaji Fancy Store.</p>
         <p align="center"> Piler - 517214 </p>
         <p align="center"> Chittoor (Dist) </p>
+        <p>E-mail: <a href="#">chowdam.praveenkumar@gmail.com</a></p>
         <b>Call : +91-8105599339<br>
            Call : +91-9618669179<br>
         
       </div>
-    </div>
+     </div>
   </div>
 </div>
 <div id="footer">
