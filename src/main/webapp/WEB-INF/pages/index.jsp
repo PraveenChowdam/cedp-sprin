@@ -49,7 +49,7 @@
         <a href="#" class="readmore">Read more</a> </li>
     </ul>
   </div>
-  <p class="footnote">Copyright &copy; 2012 <a href="#">School Name</a> All rights reserved | Website Template By <a target="_blank" href="http://www.freewebsitetemplates.com/">freewebsitetemplates.com</a></p>
+  <p class="footnote">Copyright &copy; 2012 <a href="#">Abacus Institute</a> All rights reserved</p>
 </div>
 </body>
 </html>
