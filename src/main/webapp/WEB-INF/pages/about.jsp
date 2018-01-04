@@ -41,11 +41,13 @@
       </div>
       
       <div id="aside"> <span class="first">Our Abacus Programs</span>
-        <p>Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What's more, they're absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the Terms of Use. You can even remove all our links if you want to.</p>
+        <p>We provide abacus programs for kids in class 1 to class 5. Abacus helps in improving your child's confidence levels,arithmetic skills,retention and recall.
+        This program contains 8 levels. Each level course duration is 4 months.We promise your child 5 times better
+        </p>
         <span>Junior Abacus</span>
-        <p>Looking for more templates? Just browse through all our Free Website Templates and find what you're looking for. But if you don't find any website template you can use, you can try our Free Web Design service and tell us all about it. Maybe you're looking for something different, something special. And we love the challenge of doing something different and something special.</p>
+        <p>Junior Abacus is a program designed for the kids who are in class 1 and class2.Course duration is 4 months. Child has to complete the assesment before promoting to next level. </p>
         <span>Abacus</span>
-        <p>If you're experiencing issues and concerns about this website template, join the discussion on our forum and meet other people in the community who share the same interests with you.</p>
+        <p>Abacus is a program designed for the kids who are in class 3 to class 5.Each level duration is 4 months.</p>
          
       </div>
     </div>

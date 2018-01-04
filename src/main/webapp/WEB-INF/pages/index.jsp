@@ -18,7 +18,7 @@
       <li><a href="${pageContext.request.contextPath}/blog">Testimonials</a></li>
       <li><a href="${pageContext.request.contextPath}/gallery">Gallery</a></li>
       <li><a href="${pageContext.request.contextPath}/contact">Contact us</a></li>
-      <!-- <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li>-->
+      <!-- <li><a href="${pageContext.request.contextPath}/testpage">Test</a></li> -->
     </ul>
   </div>
 </div>
@@ -42,11 +42,10 @@
      </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+        <h3>we teach mathematics in a fun way</h3>
         <a href="#" class="readmore">Read more</a> </li>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
-        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
-        <a href="#" class="readmore">Read more</a> </li>
+       <h3>Abacus is easy to learn at younger ages.</h3> </li>
     </ul>
   </div>
   <p class="footnote">Copyright &copy; 2012 <a href="#">Abacus Institute</a> All rights reserved</p>

@@ -1,6 +1,7 @@
 package com.sprhib.dao;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,8 +26,10 @@ public class TeamDAOImpl implements TeamDAO {
 		try {
 			 
 			db = CloudantClientMgr.getDB();
+			
 			System.out.println(" Db table names :"+db.toString());
 			int ret = create(db, emp.getName(), emp.getAge(),emp.getSalary());
+			
 			System.out.println(" return val :"+ret);
 			
 		} catch (Exception re) {
@@ -78,6 +81,9 @@ public class TeamDAOImpl implements TeamDAO {
 			data.put("idnum", salary);
 			
 			Response resp = db.save(data);
+			InputStream is = db.find("cb3d9a7257024575ae4b0f60f1190343");
+			System.out.println(" input stream:"+is.toString());
+			
 			System.out.println(" Get resp code :"+resp.getStatusCode());
 			
 		 return 1;
