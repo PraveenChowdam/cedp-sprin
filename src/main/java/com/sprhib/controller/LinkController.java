@@ -41,4 +41,13 @@ public class LinkController {
 	public ModelAndView testPage() {
 		return new ModelAndView("home");
 	}
+	@RequestMapping(value="/regional")
+	public ModelAndView regionalPage() {
+		return new ModelAndView("gallery");
+	}
+	
+	@RequestMapping(value="/newyear")
+	public ModelAndView newYearPage() {
+		return new ModelAndView("newyear");
+	}
 }

@@ -9,6 +9,12 @@
     rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css"><![endif]-->
+<script src="http://maps.google.com/maps?file=api&v=1
+
+            &key=ADD_YOUR_KEY_HERE" type="text/javascript">
+
+    </script>
+
 </head>
 <body>
 <div id="header">
@@ -53,6 +59,25 @@
            Call : +91-9618669179<br>
         
       </div>
+      <div id="map" style="width: 400px; height: 300px"></div>
+
+    <script type="text/javascript">
+
+    //<![CDATA[
+
+    
+
+    var map = new GMap(document.getElementById("map"));
+
+    map.centerAndZoom(new GPoint(-83.022206, 39.998264), 3);
+
+    
+
+    //]]>
+
+    </script>
+      
+      
      </div>
   </div>
 </div>
@@ -64,11 +89,10 @@
      </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
-        <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
-        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.</p>
-        <a href="#" class="readmore">Read more</a> </li>
+        <p><font color="white">we teach mathematics in a fun way.</font>
+        <font color="white">We follow Activity Based Learning methodology.</font></p>
+       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
+      <p><font color="white">Abacus is easy to learn at younger ages.</font></p>
     </ul>
   </div>
   <p class="footnote">Copyright &copy; 2012 <a href="#">Abacus Institute</a> All rights reserved</p>

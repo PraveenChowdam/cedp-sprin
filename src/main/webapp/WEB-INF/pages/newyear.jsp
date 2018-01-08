@@ -3,7 +3,7 @@
 <head>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
-<title>Special School | Gallery</title>
+<title>Special School | New Year</title>
 <meta charset="UTF-8">
 <link href="${pageContext.request.contextPath}/resources/css/style.css"
     rel="stylesheet">
@@ -146,24 +146,22 @@ function showImage(imgName) {
       
       <div id="mainContainer">
    	<div id="leftNav">
-      <img  style="width: 280px;height: 200px;"  src="${pageContext.request.contextPath}/resources/images/gallery/joshi1.jpg" alt="joshi1.jpg" title="joshitha" onclick="showImage('joshi1.jpg');" />
-	  <img  style="width: 280px;height: 200px;" src="${pageContext.request.contextPath}/resources/images/gallery/bharath.jpg" alt="bharath.jpg" title="Bharath" onclick="showImage('bharath.jpg');" />
-	  
+      <img style="width: 280px;height: 200px;"  src="${pageContext.request.contextPath}/resources/images/gallery/cake.jpg" alt="cake.jpg" title="" onclick="showImage('cake.jpg');" />
+      <img style="width: 280px;height: 200px;"  src="${pageContext.request.contextPath}/resources/images/gallery/students.jpg" alt="students.jpg" title="" onclick="showImage('students.jpg');" />
       <br />
       
    </div>
 <div id="leftNav">
-<img  style="width: 280px;height: 200px;" src="${pageContext.request.contextPath}/resources/images/gallery/parnita.jpg" alt="parnita.jpg" title="Parnitha" onclick="showImage('parnita.jpg');" />
-	<img  style="width: 280px;height: 200px;" src="${pageContext.request.contextPath}/resources/images/gallery/praveenjo.jpg" alt="praveenjo.jpg" title="Joshitha" onclick="showImage('praveenjo.jpg');" />
-	<img  style="width: 280px;height: 200px;" src="${pageContext.request.contextPath}/resources/images/gallery/poorna.jpg" alt="poorna.jpg" title="PoornaChandra" onclick="showImage('poorna.jpg');" />
-	  
+ <img style="width: 280px;height: 200px;" src="${pageContext.request.contextPath}/resources/images/gallery/students1.jpg" alt="students1.jpg" title="" onclick="showImage('students1.jpg');" />
+      <img style="width: 280px;height: 200px;"  src="${pageContext.request.contextPath}/resources/images/gallery/students2.jpg" alt="students2.jpg" title="" onclick="showImage('students2.jpg');" />
+     
 </div>
    <div id="rightDisplay">
       <img id="currentImg" src="" alt="" title="" />
    </div>
 </div>
 
-      
+     
      </div>
   </div>
 </div>

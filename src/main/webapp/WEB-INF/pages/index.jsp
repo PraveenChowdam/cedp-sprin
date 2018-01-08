@@ -22,6 +22,7 @@
     </ul>
   </div>
 </div>
+
 <div id="content">
   <div>
     <div>
@@ -34,6 +35,7 @@
     </div>
   </div>
 </div>
+
 <div id="footer">
   <div>
     <div border="30px" color="black"> <span>Follow us</span> 
@@ -42,10 +44,10 @@
      </div>
     <ul>
       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/playing-in-grass.gif" alt=""></a>
-        <h3>we teach mathematics in a fun way</h3>
-        <a href="#" class="readmore">Read more</a> </li>
-      <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
-       <h3>Abacus is easy to learn at younger ages.</h3> </li>
+        <p><font color="white">we teach mathematics in a fun way.</font>
+        <font color="white">We follow Activity Based Learning methodology.</font></p>
+       <li> <a href="#"><img src="${pageContext.request.contextPath}/resources/images/baby-smiling.gif" alt=""></a>
+      <p><font color="white">Abacus is easy to learn at younger ages.</font></p>
     </ul>
   </div>
   <p class="footnote">Copyright &copy; 2012 <a href="#">Abacus Institute</a> All rights reserved</p>
