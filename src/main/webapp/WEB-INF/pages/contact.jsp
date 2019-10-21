@@ -59,26 +59,43 @@
            Call : +91-9618669179<br>
         
       </div>
-      <div id="map" style="width: 400px; height: 300px"></div>
+      
+      <div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-    <script type="text/javascript">
 
-    //<![CDATA[
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+      var geocoder;
+      var map;
 
-    
+      function initialize() 
+      {
+        geocoder = new google.maps.Geocoder();        
+        geocoder.geocode( { 'address': "England"}, function(results, status) 
+        {
+          if (status == google.maps.GeocoderStatus.OK) 
+          {
+            var mapOptions = {
+              zoom: 8,
+              center: new google.maps.LatLng(results[0].geometry.location),
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
 
-    var map = new GMap(document.getElementById("map"));
+            // Let's draw the map
+            map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
-    map.centerAndZoom(new GPoint(-83.022206, 39.998264), 3);
+          } 
+          else 
+          {
+            alert("Geocode was not successful for the following reason: " + status);
+          }
+        });
+      }
 
-    
-
-    //]]>
-
+    initialize();
     </script>
-      
-      
-     </div>
+  </head>
+
   </div>
 </div>
 <div id="footer">
